@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "*.cjson": "jsonc",
+        "*.wxss": "css",
+        "*.wxs": "javascript",
+        "DockerFile": "dockerfile",
+        "array": "cpp",
+        "string_view": "cpp",
+        "iostream": "cpp"
+    }
+}

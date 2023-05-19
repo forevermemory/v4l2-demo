@@ -1,0 +1,13 @@
+# Package Information for pkg-config
+
+prefix=/builds/zhipu/cloud/2.0/stream
+exec_prefix=${prefix}/libs/arm64
+libdir=${exec_prefix}/opencv/lib
+includedir=${exec_prefix}/opencv/include
+
+Name: OpenCV
+Description: Open Source Computer Vision Library
+Version: 4.5.4
+Libs: -L${libdir} -lopencv_gapi -lopencv_highgui -lopencv_ml -lopencv_objdetect -lopencv_photo -lopencv_stitching -lopencv_video -lopencv_calib3d -lopencv_features2d -lopencv_dnn -lopencv_flann -lopencv_videoio -lopencv_imgcodecs -lopencv_imgproc -lopencv_core
+Libs.private: -ldl -lm -lpthread -lrt
+Cflags: -I${includedir}
